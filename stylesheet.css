@@ -11,20 +11,7 @@ body {
     background-color: rgb(167, 238, 238);
 }
 
-header{
-    background-color: aquamarine;
-    height: 70px;
-    margin: 0;
-    top: 0;
-    position: sticky;
 
-}
-
-main{
-    
-
-
-}
 
 li {
     list-style: none;
@@ -87,9 +74,17 @@ main {
 
 }
 
+header{
+    background-color: aquamarine;
+    height: 70px;
+    margin: 0;
+    top: 0;
+    position: sticky;
+
+}
+
 div.wrapper {
     min-height: 100%;
-    /* margin-bottom: -20px; */
 }
 
 footer {
@@ -99,3 +94,4 @@ footer {
     height:auto;
     padding: 5px;
 }
+
