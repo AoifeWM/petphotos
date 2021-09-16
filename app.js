@@ -35,6 +35,22 @@ function colorPicker(){
     document.write('<header style = "background-color:rgb('+red+','+green+','+blue+');">');
 }
 
+function dogPictures(){
+    let i = 0;
+    while (i === 0){
+        let dogPics = Number(prompt('How many dogs would you like to display? Max 5, min 1.'));
+        console.log
+        if (Math.round(dogPics) < 1 || Math.round(dogPics) > 5 || Number.isNaN(dogPics)){
+            alert('Invalid answer, please try again.')
+        }else{
+            for (let ii = 0; ii < Math.round(dogPics); ii++){
+                document.write('<img src="dog.jpg" alt="doggo">')
+            }
+            i++;
+        }
+    }
+}
+
 // function buttonListener(){
 // }
 
