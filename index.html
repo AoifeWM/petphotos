@@ -4,10 +4,12 @@
         <title>PetBlogSite: Submit a pet</title>
         <meta charset="utf-8">
         <link href="stylesheet.css" rel="stylesheet">
+        <script src="app.js"></script>
     </head>
     <body>
         <div class="wrapper">
-            <header>
+            <!-- <header style="background-color: rgb(111, 111, 111);"> -->
+            <script>colorPicker();</script>
                 <h1>
                     PetBlogSite
                 </h1>
@@ -35,16 +37,22 @@
                 <p class="box">
                     Upload a photo (This will be a photo upload when we learn how to do that)
                 </p>
-                <p class="largebox">
-                    Submit a bio about your pet (this will be a textbox when we learn how to do that)
-                </p>
-                <p class="button">
-                    Submit (button)
-                </p>
+                <form id="addBio">
+                    <input type="text" size="100" placeholder="Type in a bio for your pet" name="bioText">
+                    <!-- <p class="largebox">
+                        Submit a bio about your pet (this will be a textbox when we learn how to do that)
+                    </p>  -->
+                    <!-- <p class="button">
+                        Submit (button)
+                    </p> -->
+                    <button id="submit">Submit</button>
+                </form>
+                <!-- <script>petBioPrinter();</script> -->
         </main>
         </div>
         <footer>
             &copy; Carlos Lopez and Aoife Mulligan 2021
         </footer>
+        <script src="button.js"></script>
     </body>
 </html>
